@@ -152,5 +152,14 @@ footer {
   font-size: 16px;
 }
 
+@media (max width: 768px) {
+  :root{
+    --bg-url: url (./assets/bg-mobile.jpg):
+  }
+  .light {
+    --bg-url: url(./assts/bg-mobile-light.jpg)
+  }
+}
+
 
   
